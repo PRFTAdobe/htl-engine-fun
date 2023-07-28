@@ -1,0 +1,21 @@
+{
+  "plugins": {
+    "stylelint": {
+      "configFile": "./.stylelintrc.json",
+      "maxWarnings": true,
+      "fix": true,
+      "reporters": [
+        {
+          "formatter": "string",
+          "console": true
+        }
+      ]
+    },
+    "autoprefixer": {},
+    "postcss-logical": {
+      "preserve": true
+    },
+    "postcss-dir-pseudo-class": {},
+    "cssnano": {}
+  }
+}

@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  color: #323232;
+  font-family: Roboto, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-block: 0;
+  margin-inline: auto;
+  max-inline-size: 1020px;
+  padding-block: 3rem 0;
+  padding-inline: 1.5rem;
+}
+
+.cmp-image {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.cmp-image__image {
+  display: block;
+  inline-size: 100%;
+}
+
+.cmp-image__title {
+  color: #737373;
+  display: block;
+  margin-block-start: 0.75rem;
+  margin-inline: 0;
+}
+
+.cmp-image__link {
+  inline-size: 100%;
+}
+
+.cmp-image__image[src$=".svg"] {
+  max-inline-size: 300px;
+}
+
+.cmp-panel {
+  border: 0.0625rem solid #d3d3d3;
+  border-radius: .5rem;
+  margin-block: 1.5rem 3rem;
+  padding-block: 1.5rem;
+  padding-inline: 1.5rem;
+}

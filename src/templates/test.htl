@@ -1,0 +1,8 @@
+<template data-sly-template.test="${@ heading, description, steps}">
+    <h1>${heading}</h1>
+    <p>${description}</p>
+    <dl data-sly-list="${steps}">
+        <dt>${item.heading}</dt>
+        <dd>${item.description}</dd>
+    </dl>
+</template>
